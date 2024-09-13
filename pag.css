@@ -1,0 +1,72 @@
+
+
+
+.cadastrar{
+    
+    height: 50vh;
+    border: solid black 3px;
+    width: 30vh;
+    padding: 20px;
+    border-radius: 20px;
+    justify-content: center;
+    background-color:#394ed6;
+    margin-left: 800px;
+    margin-top: 200px;
+    box-shadow: 10px 10px #0e1047;
+    color: aliceblue;
+}
+
+
+caption{
+    font-size: 35px;
+}
+
+table{
+
+    border: 2px solid black;
+    margin-left: 600px;
+}
+
+th, td{
+    padding: 10px auto;
+    background-color: #DCDBDD;
+}
+
+div#conteiner{
+    
+    overflow-x:auto ;
+}
+
+div.bucket{
+    border-radius: 10px;
+    border: 1px solid #0e239e;
+    background-color: #0e239e;
+    width: 20vh;
+    
+}
+
+div.bucket, input{
+    border-radius: 10px;
+    border: 5px solid #1c2066;
+}
+
+#botão_a{
+    margin-left: 600px;
+    pointer-events: painted;
+}
+
+#navegação{
+    background-color: #12d32f;
+    height: 20vh;
+    width:  200vh;
+    
+}
+
+#alinhar{
+    font-size: 50px;
+    text-decoration: overline;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+    text-decoration-style: solid;
+}

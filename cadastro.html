@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastramento</title>
+    <link rel="stylesheet" href="../index.html">
+    <link rel="stylesheet" type="text/css" href="pag.css">
+
+    <style>
+        body{
+            background-color: #1c2066;
+        }
+    </style>
+    
+</head>
+<body>
+    
+<nav id="navegação">
+    <h1 id="alinhar">Cadastrar aluno.</h1>
+</nav>
+     
+       
+<div class="cadastrar">  
+    <h1>Cadastramento</h1>
+    <form action="">
+               
+        <div class="bucket">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" maxlength="30" required><br>
+            <label for="data_n"type>Data de nascimento</label><br>
+            <input type="date" id="data_n" name="data_n" required><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" maxlength="30" required><br>
+            <label for="turma">Turma</label><br>
+            <select name="turma" id="turma">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select><br>
+        </div>
+    
+        <div class="Genero">
+            <label for="Genero"><b></b>Genero:</b></label><br>
+            <label for="maculino">Masculino</label>
+            <input type="radio" value="Masculino" id="Masculino" name="Genero"><br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" value="feminino" id="Feminino" name="Genero">
+        </div>
+        
+        <div class="preferencias">
+            <label for="preferencias"><b>Preferencias</b></label><br>
+            <label for="Esportes">Esportes</label>
+            <input type="checkbox" name="Esportes" id="Esportes"> <br>
+            <label for="Musica">Musica</label>
+            <input type="checkbox" name="Musica" id="Musica"><br>
+            <label for="Arte">Arte</label>
+            <input type="checkbox" name="Arte" id="Arte">
+        </div>
+
+        <div class="observation">
+            <label for="Observacoes">Observaçoes</label><br>
+            <textarea name="Observacoes" id="Observacoes" maxlength="250"></textarea>
+            <button type="submit">submit</button>
+            <a href="index.html"><button type="button" id="butao">Voltar</button></a>
+        </div>
+    </form>  
+</div>
+
+</body>
+</html>
